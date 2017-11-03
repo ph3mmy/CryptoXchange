@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/backgroundGray">
+
+    <include layout="@layout/general_toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/padding_20"
+            android:layout_marginEnd="@dimen/padding_5"
+            android:layout_marginStart="@dimen/padding_5"
+            android:layout_marginTop="0dp"
+            app:cardCornerRadius="2dp"
+            app:cardPreventCornerOverlap="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/padding_10">
+
+                <TextView
+                    android:id="@+id/tvTitleText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/padding_10"
+                    android:text="Card Title"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSizeSymbol" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginBottom="@dimen/padding_20"
+                    android:background="@color/line_color" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:paddingStart="@dimen/padding_20"
+                    android:paddingEnd="@dimen/padding_20">
+
+                <TextView
+                    android:id="@+id/tvConText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textSizeEighteen"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#555"
+                    android:textStyle="normal"
+                    android:text=""/>
+
+                    </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/padding_60"
+                    android:layout_marginTop="@dimen/padding_30"
+                    android:padding="@dimen/padding_10"
+                    android:weightSum="5">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/til_btc_con"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="2.3"
+                        android:background="@drawable/transparent_button"
+                        android:hint="@string/btc_value"
+                        android:padding="@dimen/padding_5">
+
+                        <EditText
+                            android:id="@+id/etBtcVal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:inputType="number"
+                            android:paddingEnd="5dp"
+                            android:paddingStart="5dp"
+                            android:paddingTop="0dp"
+                            android:text=""
+                            android:textColorHint="#dadada" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.4"
+                        android:gravity="center"
+                        android:text="="
+                        android:textSize="24sp" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/til_other_con"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="2.3"
+                        android:background="@drawable/transparent_button"
+                        android:hint="@string/other_value"
+                        android:padding="@dimen/padding_5">
+
+                        <EditText
+                            android:id="@+id/etOtherVal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:inputType="number"
+                            android:paddingEnd="5dp"
+                            android:paddingStart="5dp"
+                            android:paddingTop="0dp"
+                            android:text=""
+                            android:textColorHint="#dadada" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </FrameLayout>
+        </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CryptoXchange</string>
+    <string name="action_settings">Settings</string>
+    <string name="btc_string">Bitcoin</string>
+    <string name="eth_string">Ethereum</string>
+    <string name="unit_btc">1 btc =</string>
+    <string name="unit_eth">1 eth =</string>
+    <string name="eth_sym">1 Ξ = </string>
+    <string name="btc_sym_1">1 ฿ = </string>
+    <string name="btc_value">Btc value</string>
+    <string name="other_value">other value</string>
+    <string name="converter_title">Converter</string>
+    <string name="empty_btc_txt">No card created yet \n Click the ADD button to create a card</string>
+</resources>

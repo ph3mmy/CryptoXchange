@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="textSizeSymbol">22sp</dimen>
+    <dimen name="textSizeName">14sp</dimen>
+    <dimen name="textSizeEighteen">18sp</dimen>
+    <dimen name="textSizeSixteen">16sp</dimen>
+    <dimen name="textSizeFifteen">15sp</dimen>
+    <dimen name="textSizeRate">20sp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_20">20dp</dimen>
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="padding_40">40dp</dimen>
+    <dimen name="padding_60">60dp</dimen>
+    <dimen name="padding_30">30dp</dimen>
+</resources>
